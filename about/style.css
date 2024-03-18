@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.hero .left {
+    background-image: linear-gradient(45deg, #19565c, #4e9582);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.hero .left img {
+    height: 200px;
+    width: 200px !important;
+    border-radius: 50%;
+}
+
+.hero .left .icon {
+    display: flex;
+    column-gap: 10px;
+}
+
+.hero .left .icon i {
+    background: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero .left .btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.hero .left .btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid darkgrey;
+    padding: 10px 30px;
+    border-radius: 35px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.hero .left .btn a:hover {
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+}
+
+.hero .left .btn input {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid darkgrey;
+    padding: 10px 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.hero .left .btn input:hover {
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+}
+
+.right {
+    display: flex;
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 20px;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-left: 23%;
+}
+
+.right hr {
+    color: darkgray;
+}
+
+.right .txt {
+    /* text-align: center; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: fit-content;
+    line-height: 30px;
+}
+
+.right .txt p {
+    font-family: "Poppins", sans-serif;
+}
+
+.right .txt .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .txt button {
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(45deg, #19565c, #4e9582);
+    transition: all 0.4s ease-in-out;
+    color: white;
+}
+
+.right .txt button:hover {
+    box-shadow: rgb(0, 255, 191) 0px 7px 29px 0px;
+}
+
+.right .post {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.right .post .project-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: -webkit-fill-available;
+}
+
+.right pre {
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    height: auto;
+}
+
+.right .post .project-post img {
+    width: 225px;
+}
+
+.right .post .project-post .para {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 40px
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-left: 23%;
+    width: auto;
+}
